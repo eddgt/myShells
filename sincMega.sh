@@ -12,4 +12,7 @@ rsync -rtvu  '/cygdrive/c/Users/oulloa/Documents/SQL Server Management Studio/Pr
 
 #Sincronizar TXT , SH y XLSX
 echo "Sincronizando TXT , SH y XLSX's..."
+rsync -rtvu '/cygdrive/c/Users/oulloa/Documents/*.txt /cygdrive/c/Users/oulloa/Documents/Tigo_Txt_and_Sh_notes/'
+rsync -rtvu '/cygdrive/c/Users/oulloa/Documents/*.sh /cygdrive/c/Users/oulloa/Documents/Tigo_Txt_and_Sh_notes/'
+rsync -rtvu '/cygdrive/c/Users/oulloa/Documents/*.xlsx /cygdrive/c/Users/oulloa/Documents/Tigo_Txt_and_Sh_notes/'
 rsync -rtvu  '/cygdrive/c/Users/oulloa/Documents/Tigo_Txt_and_Sh_notes/' '/cygdrive/c/Users/oulloa/Documents/MEGAsync/TXT_and_SH_notes/'
